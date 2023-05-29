@@ -1,0 +1,146 @@
+
+* {
+  box-sizing: border-box;
+  /* background-color: rgb(195, 228, 241); */
+  color: rgb(8, 44, 78);
+  margin: 5px white;
+}
+
+body {
+  background-color: rgb(195, 228, 241);
+}
+
+
+h1 {
+  font-size: 75px;
+}
+
+nav{
+  font-size: 25px;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  
+}
+h3 {
+  font-size: 25px;
+  color:rgb(195, 228, 241);
+  font-weight: bolder;
+  display: block;
+  text-align: center;
+  padding: 5px;
+  background: none;
+}
+
+.Project {
+  color: rgb(195, 228, 241);
+  font-weight: 800;
+}
+
+.banner {
+  width: 100%;
+}
+
+#about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  width: 40%;
+}
+
+#icon {
+  
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+#icons {
+  position: relative; 
+  bottom: 30px;
+  width: 10%;
+}
+
+#wav {
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url("../images/waves.avif");
+  }
+
+img {
+  width: 100%;
+}
+
+#waves {
+  height: 500px;
+   background-image: url("../images/waves.avif");
+}
+
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1 0 100px;
+  padding: 50px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+   background-image: url("../images/waves.avif");
+}
+
+#first {
+  display: flex;
+  flex: 1 0 200px;
+  height: 200px;
+}
+
+.box, h2 {
+  display: block;
+  text-align: center;
+  position: relative; 
+}
+
+#first {
+  flex: 1 0 500px;
+}
+#wave {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+footer {
+  display: block;
+}
+
+@media  screen and (max-width: 760px)
+ {
+  .box {
+    display: flex;
+    flex: 1 2; 
+}
+  img {
+    height: 50px;
+    flex: 1 0 100px;
+  }
+  #waves {
+    height: 100px;
+  }
+  #wav {
+    height: 50px;
+  }
+ }
+
+/* @media screen and (max-width: 390px)
+{
+  
+}
